@@ -9,3 +9,6 @@
 /src
 /15.0.0
 /ViT_model.pth
+/ViT_model_ft.pth
+/kaggle.json
+/dataset.json
