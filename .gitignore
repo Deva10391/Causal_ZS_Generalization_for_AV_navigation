@@ -1,5 +1,5 @@
 /target
-/dataset
+/dataset - 1
 /datasets
 /CARLA_0.9.15
 /CARLA_0.9.15.zip
@@ -13,3 +13,5 @@
 /kaggle.json
 /dataset.json
 /next steps.txt
+/best_model.pth
+/carla activation.txt
