@@ -8,10 +8,10 @@
 /model
 /src
 /15.0.0
-/ViT_model.pth
-/ViT_model_ft.pth
+/vit_wp_model.pth
+/best_vit_wp_model.pth
+/best_vit_wp_model_updated.pth
 /kaggle.json
 /dataset.json
 /next steps.txt
-/best_model.pth
 /carla activation.txt
