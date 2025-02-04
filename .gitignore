@@ -8,8 +8,7 @@
 /model
 /src
 /15.0.0
-/vit_wp_model.pth
-/best_vit_wp_model.pth
+/VitWPModel.pth
 /best_vit_wp_model_updated.pth
 /kaggle.json
 /dataset.json
