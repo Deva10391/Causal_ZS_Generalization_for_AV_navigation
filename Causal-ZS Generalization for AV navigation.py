@@ -3839,7 +3839,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 609,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3853,7 +3853,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 610,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3870,7 +3870,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 611,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3904,7 +3904,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 612,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3914,7 +3914,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 614,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3938,7 +3938,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 616,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3958,7 +3958,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 618,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3972,7 +3972,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 619,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3989,7 +3989,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 620,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4023,7 +4023,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 621,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4033,7 +4033,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 622,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4054,7 +4054,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 624,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4072,7 +4072,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 625,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4082,9 +4082,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 626,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "c:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\torchvision\\models\\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.\n",
+      "  warnings.warn(\n",
+      "c:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\torchvision\\models\\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.\n",
+      "  warnings.warn(msg)\n"
+     ]
+    }
+   ],
    "source": [
     "image_to_bev_model = BEVToImage()\n",
     "image_to_bev_model = torch.load('models/ImageToBEV.pth', map_location=torch.device('cpu'))"
@@ -4092,7 +4103,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 627,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4113,7 +4124,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 629,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4142,7 +4153,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 630,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4152,7 +4163,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 631,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4162,7 +4173,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 632,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4186,7 +4197,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 633,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4488,7 +4499,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 608,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4498,7 +4509,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 617,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4627,7 +4638,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 623,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4754,7 +4765,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 628,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -4878,7 +4889,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 634,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -5005,7 +5016,33 @@
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "'o' is not a valid color value.",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[638], line 8\u001b[0m\n\u001b[0;32m      6\u001b[0m plt\u001b[38;5;241m.\u001b[39mfigure(figsize\u001b[38;5;241m=\u001b[39m(\u001b[38;5;241m8\u001b[39m, \u001b[38;5;241m5\u001b[39m))\n\u001b[0;32m      7\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m \u001b[38;5;28mrange\u001b[39m(\u001b[38;5;241m0\u001b[39m, \u001b[38;5;28mlen\u001b[39m(averages_fm)):\n\u001b[1;32m----> 8\u001b[0m     \u001b[43mplt\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mbar\u001b[49m\u001b[43m(\u001b[49m\u001b[43mx\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m+\u001b[39;49m\u001b[43m \u001b[49m\u001b[43m(\u001b[49m\u001b[43mwidth\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[43m \u001b[49m\u001b[43m(\u001b[49m\u001b[43mi\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m-\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;241;43m1\u001b[39;49m\u001b[43m)\u001b[49m\u001b[43m)\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43maverages_fm\u001b[49m\u001b[43m[\u001b[49m\u001b[43mi\u001b[49m\u001b[43m]\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mwidth\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43mwidth\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mlabel\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[38;5;124;43mf\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mAlgorithm \u001b[39;49m\u001b[38;5;132;43;01m{\u001b[39;49;00m\u001b[43mi\u001b[49m\u001b[38;5;241;43m+\u001b[39;49m\u001b[38;5;241;43m1\u001b[39;49m\u001b[38;5;132;43;01m}\u001b[39;49;00m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mcolor\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43mcolor\u001b[49m\u001b[43m[\u001b[49m\u001b[43mi\u001b[49m\u001b[43m]\u001b[49m\u001b[43m)\u001b[49m\n\u001b[0;32m      9\u001b[0m plt\u001b[38;5;241m.\u001b[39mxlabel(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mMetrics\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m     10\u001b[0m plt\u001b[38;5;241m.\u001b[39mylabel(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mValues\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "File \u001b[1;32mc:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\matplotlib\\pyplot.py:2439\u001b[0m, in \u001b[0;36mbar\u001b[1;34m(x, height, width, bottom, align, data, **kwargs)\u001b[0m\n\u001b[0;32m   2435\u001b[0m \u001b[38;5;129m@_copy_docstring_and_deprecators\u001b[39m(Axes\u001b[38;5;241m.\u001b[39mbar)\n\u001b[0;32m   2436\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;21mbar\u001b[39m(\n\u001b[0;32m   2437\u001b[0m         x, height, width\u001b[38;5;241m=\u001b[39m\u001b[38;5;241m0.8\u001b[39m, bottom\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mNone\u001b[39;00m, \u001b[38;5;241m*\u001b[39m, align\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mcenter\u001b[39m\u001b[38;5;124m'\u001b[39m,\n\u001b[0;32m   2438\u001b[0m         data\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mNone\u001b[39;00m, \u001b[38;5;241m*\u001b[39m\u001b[38;5;241m*\u001b[39mkwargs):\n\u001b[1;32m-> 2439\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[43mgca\u001b[49m\u001b[43m(\u001b[49m\u001b[43m)\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mbar\u001b[49m\u001b[43m(\u001b[49m\n\u001b[0;32m   2440\u001b[0m \u001b[43m        \u001b[49m\u001b[43mx\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mheight\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mwidth\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43mwidth\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mbottom\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43mbottom\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43malign\u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43malign\u001b[49m\u001b[43m,\u001b[49m\n\u001b[0;32m   2441\u001b[0m \u001b[43m        \u001b[49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43m{\u001b[49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mdata\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m:\u001b[49m\u001b[43m \u001b[49m\u001b[43mdata\u001b[49m\u001b[43m}\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;28;43;01mif\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[43mdata\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;129;43;01mis\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;129;43;01mnot\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;28;43;01mNone\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;28;43;01melse\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[43m{\u001b[49m\u001b[43m}\u001b[49m\u001b[43m)\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[43mkwargs\u001b[49m\u001b[43m)\u001b[49m\n",
+      "File \u001b[1;32mc:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\matplotlib\\__init__.py:1474\u001b[0m, in \u001b[0;36m_preprocess_data.<locals>.inner\u001b[1;34m(ax, data, *args, **kwargs)\u001b[0m\n\u001b[0;32m   1471\u001b[0m \u001b[38;5;129m@functools\u001b[39m\u001b[38;5;241m.\u001b[39mwraps(func)\n\u001b[0;32m   1472\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;21minner\u001b[39m(ax, \u001b[38;5;241m*\u001b[39margs, data\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mNone\u001b[39;00m, \u001b[38;5;241m*\u001b[39m\u001b[38;5;241m*\u001b[39mkwargs):\n\u001b[0;32m   1473\u001b[0m     \u001b[38;5;28;01mif\u001b[39;00m data \u001b[38;5;129;01mis\u001b[39;00m \u001b[38;5;28;01mNone\u001b[39;00m:\n\u001b[1;32m-> 1474\u001b[0m         \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[43mfunc\u001b[49m\u001b[43m(\u001b[49m\u001b[43max\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[38;5;28;43mmap\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43msanitize_sequence\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43margs\u001b[49m\u001b[43m)\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[38;5;241;43m*\u001b[39;49m\u001b[43mkwargs\u001b[49m\u001b[43m)\u001b[49m\n\u001b[0;32m   1476\u001b[0m     bound \u001b[38;5;241m=\u001b[39m new_sig\u001b[38;5;241m.\u001b[39mbind(ax, \u001b[38;5;241m*\u001b[39margs, \u001b[38;5;241m*\u001b[39m\u001b[38;5;241m*\u001b[39mkwargs)\n\u001b[0;32m   1477\u001b[0m     auto_label \u001b[38;5;241m=\u001b[39m (bound\u001b[38;5;241m.\u001b[39marguments\u001b[38;5;241m.\u001b[39mget(label_namer)\n\u001b[0;32m   1478\u001b[0m                   \u001b[38;5;129;01mor\u001b[39;00m bound\u001b[38;5;241m.\u001b[39mkwargs\u001b[38;5;241m.\u001b[39mget(label_namer))\n",
+      "File \u001b[1;32mc:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\matplotlib\\axes\\_axes.py:2433\u001b[0m, in \u001b[0;36mAxes.bar\u001b[1;34m(self, x, height, width, bottom, align, **kwargs)\u001b[0m\n\u001b[0;32m   2431\u001b[0m linewidth \u001b[38;5;241m=\u001b[39m itertools\u001b[38;5;241m.\u001b[39mcycle(np\u001b[38;5;241m.\u001b[39matleast_1d(linewidth))\n\u001b[0;32m   2432\u001b[0m hatch \u001b[38;5;241m=\u001b[39m itertools\u001b[38;5;241m.\u001b[39mcycle(np\u001b[38;5;241m.\u001b[39matleast_1d(hatch))\n\u001b[1;32m-> 2433\u001b[0m color \u001b[38;5;241m=\u001b[39m itertools\u001b[38;5;241m.\u001b[39mchain(itertools\u001b[38;5;241m.\u001b[39mcycle(\u001b[43mmcolors\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mto_rgba_array\u001b[49m\u001b[43m(\u001b[49m\u001b[43mcolor\u001b[49m\u001b[43m)\u001b[49m),\n\u001b[0;32m   2434\u001b[0m                         \u001b[38;5;66;03m# Fallback if color == \"none\".\u001b[39;00m\n\u001b[0;32m   2435\u001b[0m                         itertools\u001b[38;5;241m.\u001b[39mrepeat(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mnone\u001b[39m\u001b[38;5;124m'\u001b[39m))\n\u001b[0;32m   2436\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m edgecolor \u001b[38;5;129;01mis\u001b[39;00m \u001b[38;5;28;01mNone\u001b[39;00m:\n\u001b[0;32m   2437\u001b[0m     edgecolor \u001b[38;5;241m=\u001b[39m itertools\u001b[38;5;241m.\u001b[39mrepeat(\u001b[38;5;28;01mNone\u001b[39;00m)\n",
+      "File \u001b[1;32mc:\\Users\\devas\\.conda\\envs\\carlaSim\\lib\\site-packages\\matplotlib\\colors.py:471\u001b[0m, in \u001b[0;36mto_rgba_array\u001b[1;34m(c, alpha)\u001b[0m\n\u001b[0;32m    468\u001b[0m     \u001b[38;5;28;01mpass\u001b[39;00m\n\u001b[0;32m    470\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28misinstance\u001b[39m(c, \u001b[38;5;28mstr\u001b[39m):\n\u001b[1;32m--> 471\u001b[0m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m(\u001b[38;5;124mf\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;132;01m{\u001b[39;00mc\u001b[38;5;132;01m!r}\u001b[39;00m\u001b[38;5;124m is not a valid color value.\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m    473\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28mlen\u001b[39m(c) \u001b[38;5;241m==\u001b[39m \u001b[38;5;241m0\u001b[39m:\n\u001b[0;32m    474\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m np\u001b[38;5;241m.\u001b[39mzeros((\u001b[38;5;241m0\u001b[39m, \u001b[38;5;241m4\u001b[39m), \u001b[38;5;28mfloat\u001b[39m)\n",
+      "\u001b[1;31mValueError\u001b[0m: 'o' is not a valid color value."
+     ]
+    },
+    {
+     "data": {
+      "image/png": "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2hr19fWDxmpra+PJJ5886HV6enqip6dn4M+dnZ0R8Z//AgAASM+7nZbnPdD3lVeo7t27N/r6+qK8vHzQeHl5eezYsWPINe3t7UPOb29vP+h1Ghsb49Zbbz1gvLKyMp/tAgAwxv72t79FWVnZiDxXXqE6VpYtWzboLuxbb70VJ510UuzatWvEXjjp6urqisrKyti9e7e3eowDznt8cd7ji/MeXzo7O+PEE0+ME044YcSeM69QnTRpUhQVFUVHR8eg8Y6OjqioqBhyTUVFRV7zIyJyuVzkcrkDxsvKyvyDPo6UlpY673HEeY8vznt8cd7jS2HhyH37aV7PVFxcHLNmzYqWlpaBsf7+/mhpaYnq6uoh11RXVw+aHxHx9NNPH3Q+AABEDONX//X19bFw4cKYPXt2zJkzJ1avXh3d3d2xaNGiiIhYsGBBTJs2LRobGyMi4oYbboiLLroo7r777rj00ktj3bp18dxzz8UDDzwwsq8EAIAjSt6hWldXF3v27IkVK1ZEe3t7zJw5M5qbmwc+MLVr165Bt3zPO++8ePTRR+Pmm2+Om266KT75yU/Gk08+GWecccYhXzOXy0VDQ8OQbwfgyOO8xxfnPb447/HFeY8vo3HeeX+PKgAAjIWRe7crAACMIKEKAECShCoAAEkSqgAAJCmZUG1qaorp06dHSUlJVFVVxebNm993/i9+8Ys47bTToqSkJM4888zYuHHjGO2UkZDPea9duzYuvPDCmDhxYkycODFqamr+5z8fpCXfn+93rVu3LgoKCmLevHmju0FGVL7n/dZbb8XixYtjypQpkcvl4tRTT/W/6R8i+Z736tWr41Of+lQcffTRUVlZGUuWLIl///vfY7Rbhuv3v/99zJ07N6ZOnRoFBQXx5JNP/s81mzZtinPOOSdyuVx84hOfiIcffjj/C2cJWLduXVZcXJw99NBD2Z///Ofs6quvzo4//viso6NjyPl/+MMfsqKiouzOO+/MXnjhhezmm2/OjjrqqOz5558f450zHPme9xVXXJE1NTVl27Zty7Zv35597Wtfy8rKyrK//OUvY7xzhiPf837Xq6++mk2bNi278MILsy9+8Ytjs1k+sHzPu6enJ5s9e3Z2ySWXZM8880z26quvZps2bcra2trGeOcMR77n/cgjj2S5XC575JFHsldffTV76qmnsilTpmRLliwZ452Tr40bN2bLly/PHn/88SwisieeeOJ95+/cuTM75phjsvr6+uyFF17I7r333qyoqChrbm7O67pJhOqcOXOyxYsXD/y5r68vmzp1atbY2Djk/C9/+cvZpZdeOmisqqoq+/rXvz6q+2Rk5Hve77V///7suOOOy37605+O1hYZQcM57/3792fnnXde9uMf/zhbuHChUP0Qyfe8f/SjH2Unn3xy1tvbO1ZbZATle96LFy/OPve5zw0aq6+vz84///xR3Scj61BC9bvf/W52+umnDxqrq6vLamtr87rWYf/Vf29vb2zZsiVqamoGxgoLC6OmpiZaW1uHXNPa2jpofkREbW3tQeeTjuGc93u9/fbb8c4778QJJ5wwWttkhAz3vL///e/H5MmT48orrxyLbTJChnPev/zlL6O6ujoWL14c5eXlccYZZ8TKlSujr69vrLbNMA3nvM8777zYsmXLwNsDdu7cGRs3boxLLrlkTPbM2BmpVsv7b6YaaXv37o2+vr6Bv9nqXeXl5bFjx44h17S3tw85v729fdT2ycgYznm/14033hhTp0494AeA9AznvJ955pl48MEHo62tbQx2yEgaznnv3Lkzfvvb38ZXv/rV2LhxY7z88stx3XXXxTvvvBMNDQ1jsW2GaTjnfcUVV8TevXvjggsuiCzLYv/+/XHttdfGTTfdNBZbZgwdrNW6urriX//6Vxx99NGH9DyH/Y4q5GPVqlWxbt26eOKJJ6KkpORwb4cRtm/fvpg/f36sXbs2Jk2adLi3wxjo7++PyZMnxwMPPBCzZs2Kurq6WL58eaxZs+Zwb41RsGnTpli5cmXcf//9sXXr1nj88cdjw4YNcdtttx3urZGow35HddKkSVFUVBQdHR2Dxjs6OqKiomLINRUVFXnNJx3DOe933XXXXbFq1ar4zW9+E2edddZobpMRku95v/LKK/Haa6/F3LlzB8b6+/sjImLChAnx4osvximnnDK6m2bYhvPzPWXKlDjqqKOiqKhoYOzTn/50tLe3R29vbxQXF4/qnhm+4Zz3LbfcEvPnz4+rrroqIiLOPPPM6O7ujmuuuSaWL18ehYXunx0pDtZqpaWlh3w3NSKBO6rFxcUxa9asaGlpGRjr7++PlpaWqK6uHnJNdXX1oPkREU8//fRB55OO4Zx3RMSdd94Zt912WzQ3N8fs2bPHYquMgHzP+7TTTovnn38+2traBh6XXXZZXHzxxdHW1haVlZVjuX3yNJyf7/PPPz9efvnlgX8hiYh46aWXYsqUKSI1ccM577fffvuAGH33X1L+8xkdjhQj1mr5fc5rdKxbty7L5XLZww8/nL3wwgvZNddckx1//PFZe3t7lmVZNn/+/Gzp0qUD8//whz9kEyZMyO66665s+/btWUNDg6+n+hDJ97xXrVqVFRcXZ4899lj217/+deCxb9++w/USyEO+5/1ePvX/4ZLvee/atSs77rjjsm9+85vZiy++mP3qV7/KJk+enN1+++2H6yWQh3zPu6GhITvuuOOyn/3sZ9nOnTuzX//619kpp5ySffnLXz5cL4FDtG/fvmzbtm3Ztm3bsojI7rnnnmzbtm3Z66+/nmVZli1dujSbP3/+wPx3v57qO9/5TrZ9+/asqanpw/v1VFmWZffee2924oknZsXFxdmcOXOyP/7xjwP/2UUXXZQtXLhw0Pyf//zn2amnnpoVFxdnp59+erZhw4Yx3jEfRD7nfdJJJ2URccCjoaFh7DfOsOT78/3/CdUPn3zP+9lnn82qqqqyXC6XnXzyydkdd9yR7d+/f4x3zXDlc97vvPNO9r3vfS875ZRTspKSkqyysjK77rrrsn/84x9jv3Hy8rvf/W7I/y9+93wXLlyYXXTRRQesmTlzZlZcXJydfPLJ2U9+8pO8r1uQZe61AwCQnsP+HlUAABiKUAUAIElCFQCAJAlVAACSJFQBAEiSUAUAIElCFQCAJAlVAACSJFQBAEiSUAUAIElCFQCAJAlVAACS9H+QH23U13ZuJwAAAABJRU5ErkJggg==",
+      "text/plain": [
+       "<Figure size 800x500 with 1 Axes>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
    "source": [
     "categories = [\"Route Completion\", \"Infraction Score\", \"Driving Score\"]\n",
     "color = [\"orange\", \"b\", \"g\",\"r\"]\n",
@@ -5028,9 +5065,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 637,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[41.13276661031995, 10.0, 37.01948994928795]\n",
+      "[94.52484785820145, 0.0, 94.52484785820144]\n",
+      "[48.218020587283085, 70.0, 14.465406176184926]\n",
+      "[64.58470940023372, 20.0, 51.66776752018697]\n"
+     ]
+    }
+   ],
    "source": [
     "for averages_fm_i in averages_fm:\n",
     "    print(averages_fm_i)"
