@@ -27,4 +27,6 @@
 /Cargo.tomlcleanenv/ 
 newenv/ 
 yolov7/ 
-/cleanenv
+/cleanenvnode_modules/
+build/
+dist/
